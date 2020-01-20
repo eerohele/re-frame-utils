@@ -19,4 +19,7 @@
                     :output-to      "target/cljs-test/test.js"
                     :output-dir     "target/cljs-test"
                     :optimizations  :none
-                    :target         :nodejs}}]})
+                    :target         :nodejs}}]}
+
+  :doo {:build "test"
+        :alias {:default [:node]}})

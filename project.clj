@@ -1,4 +1,4 @@
-(defproject re-frame-utils "0.1.1"
+(defproject me.flowthing/re-frame-utils "0.1.1"
   :description "Fxs and CoFxs for re-frame"
   :url "http://github.com/vimsical/re-frame-utils"
   :license {:name "MIT"}

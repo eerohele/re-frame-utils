@@ -2,13 +2,13 @@
   :description "Fxs and CoFxs for re-frame"
   :url "http://github.com/vimsical/re-frame-utils"
   :license {:name "MIT"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
-  :plugins      [[lein-cljsbuild "1.1.6"]
-                 [lein-doo "0.1.7"]]
-  :profiles {:provided {:dependencies [[re-frame "0.9.4"]]}
-             :dev      {:dependencies [[org.clojure/clojurescript "1.9.671"]
-                                       [reagent "0.6.2" :exclusions [org.clojure/clojurescript]]
-                                       [re-frame "0.9.4" :exclusions [org.clojure/clojurescript]]
+  :dependencies [[org.clojure/clojure "1.10.1"]]
+  :plugins      [[lein-cljsbuild "1.1.7"]
+                 [lein-doo "0.1.11"]]
+  :profiles {:provided {:dependencies [[re-frame "0.11.0"]]}
+             :dev      {:dependencies [[org.clojure/clojurescript "1.10.597"]
+                                       [reagent "0.9.1" :exclusions [org.clojure/clojurescript]]
+                                       [re-frame "0.11.0" :exclusions [org.clojure/clojurescript]]
                                        [day8.re-frame/test "0.1.5" :exclusions [org.clojure/clojurescript]]]}}
   :cljsbuild
   {:builds
